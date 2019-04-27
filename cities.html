@@ -2,7 +2,57 @@
 <html>
 <head>
     <title>Best Cities</title>
-    
+
     <link rel="icon" href="img2.png" type="image/png">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="keywords" content="footer, address, phone, icons" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="citiesCSS.css">
+
+    <link rel="stylesheet" type="text/css" href="navbarCSS.css">
+
+    <link rel="stylesheet" href="footerCSS.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script> 
+    $(function(){
+      $("#includeFooter").load("footer.html"); 
+    });
+    </script> 
+    <script> 
+    $(function(){
+      $("#includeNavbar").load("navbar.html"); 
+    });
+    </script> 
+
 </head>
 <body>
+<div id="includeNavbar"></div>
+<div class="row">
+  <div class="column1"></div>
+  <div class="column2">
+  	<h1>The best cities to visit in Bulgaria</h1>
+
+    <div class="post-container">
+         <div class="post-thumb"><img  class="bg-map" src="map.jpg"></div>
+              <div class="post-content">
+                    <p style="color:#C5C6C7">Best Places to Visit in Bulgaria
+Rolling down from the pine-clad massifs of the Balkan Mountains and the Rhodope ranges to meet the sparkling blues of the Black Sea, Bulgaria offers everything from sun-kissed beaches to enthralling historical narratives, buzzing party towns to snow-shrouded ski resorts between its borders. In this guide to the 15 best places to visit in the country, we take a look at all the major hotspots that should be on anyone’s Bulgarian bucket list this year. </p></div>
+    </div>
+   </div>
+  <div class="column1"></div>
+</div>
+<div id="includeFooter"></div>
+</body>
+</html>
