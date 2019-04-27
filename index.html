@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visit Bulgaria</title>
+    
+    <link rel="logo" href="bul.jpg">
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="footer, address, phone, icons" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="test.css">
+
+    <link rel="stylesheet" type="text/css" href="navbarCSS.css">
+
+    <link rel="stylesheet" href="footerCSS.css">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includeFooter").load("footer.html"); 
+    });
+    </script> 
+    <script> 
+    $(function(){
+      $("#includeNavbar").load("navbar.html"); 
+    });
+    </script> 
+</head>
+<body>
+
+<div id="includeNavbar"></div>
+
+<div class="startofPage" align="center"><h2>Visit Bulgaria</h2></div>
+
+<div class="header" align="center">
+      
+      <div class="w3-display-container mySlides">
+          <img src="img1.jpg" width=50% height=25%>
+             <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+                  <p style="color:#C5C6C7">Alexander Nevsky<br>Cathedral, Sofia.<br>The St. Alexander<br> Nevsky Cathedral<br> is a Bulgarian<br> Orthodox cathedral<br> in Sofia, the<br> capital of Bulgaria. </p>
+            </div>
+      </div>
+
+      <div class="w3-display-container mySlides">
+          <img src="img3.jpg" width=50% height=25%>
+             <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+                  <p style="color:#C5C6C7">The Nature of Bulgaria<br>The various landscapes<br> of Bulgaria from <br>the deep Black Sea <br>to the highest mountain<br> tops are home<br> to one of Europe’s<br>richest nature<br> and wildlife habitats. <br> </p>
+             </div>
+      </div>
+
+       <div class="w3-display-container mySlides">
+           <img src="img4.jpg" width=50% height=25%>
+               <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+                  <p style="color:#C5C6C7">Veliko Tarnovo is<br> a city in north<br> central Bulgaria<br> and the administrative<br> centre of Veliko<br> Tarnovo Province.<br></p>
+               </div>
+       </div>
+
+       <div class="w3-display-container mySlides">
+           <img src="img2.png" width=50% height=25%>
+             <div class="w3-display-topleft w3-large w3-container w3-padding-16">
+                <p style="color:#C5C6C7">The flag of<br> Bulgaria is a <br>tricolour consisting<br> of three equal-sized <br>horizontal bands of <br>(from top to bottom) <br>white, green, <br>and red.<br></p>
+             </div>
+        </div>
+
+       <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+       <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<div align="center">
+	   
+	<h3 style="color:#66FCF1">Information about Bulgaria</h3>
+	   
+	<p style="color:#C5C6C7">Bulgaria, officially the Republic of Bulgaria , is a country in Southeast Europe. It is bordered by Romania to the north, Serbia and North Macedonia to the west, Greece and Turkey to the south, and the Black Sea to the east. The capital and largest city is Sofia; other major cities are Plovdiv, Varna and Burgas. With a territory of 110,994 square kilometres (42,855 sq mi), Bulgaria is Europe's 16th-largest country.</p>
+   
+</div>
+   
+<div class="row">
+      
+    <div class="container">
+        <img src="blacksea.jpg" alt="Avatar" class="image">
+           <div class="overlay">
+              <div class="text">The Bulgarian Black Sea Coast , also known as the Bulgarian Riviera. </div>
+           </div>
+    </div>
+
+    <div class="container">
+        <img src="rila.jpg" alt="Avatar" class="image">
+           <div class="overlay">
+              <div class="text">Seven Rila Lakes</div>
+          </div>
+    </div>
+
+    <div class="container">
+        <img src="plovdiv.jpg" alt="Avatar" class="image">
+           <div class="overlay">
+              <div class="text">Plovdiv </div>
+          </div>
+    </div>
+
+</div>  
+
+<div id="includeFooter"></div>
+
+</body>
+</html>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
