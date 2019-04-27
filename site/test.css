@@ -1,0 +1,95 @@
+body {background-color: #292c2f;}/* color of whole page*/
+/*style of navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #45A29E;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*end of style of navigation bar*/
+/*style of visit bulgaria header*/
+h2 {
+  display: inline;
+  position: relative;
+  font: 100px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color:#66FCF1 ; 
+
+}
+.all{
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header{
+  background-color:#45A29E;
+}
+.container {
+  position: relative;
+  float:left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #45A29E;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bg-4 { 
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
