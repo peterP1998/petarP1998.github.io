@@ -1,30 +1,5 @@
 body {background-color: #292c2f;}/* color of whole page*/
-/*style of navigation bar*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #45A29E;
-  top: 0;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-/*end of style of navigation bar*/
 /*style of visit bulgaria header*/
 h2 {
   display: inline;
@@ -39,7 +14,6 @@ h2 {
   margin: auto;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -52,13 +26,13 @@ h2 {
   position: relative;
   float:left;
   width: 33.33%;
-  height: 300px;
+  height: 50%;
 }
 
 .image {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 50%;
 }
 
 .overlay {
