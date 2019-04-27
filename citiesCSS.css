@@ -1,0 +1,45 @@
+body {background-color: #292c2f;}
+.column1 {
+  float: left;
+  width: 20%;
+  height: 1000px;
+}
+.column2 {
+  float: left;
+  width: 60%;
+  height: 1000px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  font: 100px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color:#66FCF1 ; 
+
+}
+.bg-map{
+	width:50%; 
+	height:350px;
+  margin: 0 30px 0 0;
+}
+.post-container{
+    margin: 20px 20px 0 0;  
+}
+
+.post-thumb img {
+    float: left;
+}
+
+.post-content {
+    margin-left: 10px;
+    overflow:hidden;
+}
