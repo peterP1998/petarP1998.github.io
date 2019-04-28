@@ -61,3 +61,8 @@ h1 {
     width: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
