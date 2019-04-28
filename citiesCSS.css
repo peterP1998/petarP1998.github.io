@@ -2,14 +2,18 @@ body {background-color: #292c2f;}
 .column1 {
   float: left;
   width: 20%;
-  height:3500px;
+ height:3500px;
 }
 .column2 {
   float: left;
   width: 60%;
   height:100%;
 }
-
+@media screen and (max-width: 600px) {
+  .column1,.column2 {
+    width: 100%;
+  }
+}
 
 /* Clear floats after the columns */
 .row:after {
