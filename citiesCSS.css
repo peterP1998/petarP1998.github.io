@@ -2,7 +2,7 @@ body {background-color: #292c2f;}
 .column1 {
   float: left;
   width: 20%;
-  height: 1000px;
+  height:3500px;
 }
 .column2 {
   float: left;
@@ -55,4 +55,9 @@ h1 {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  .column1,.column2 {
+    width: 100%;
+  }
 }
