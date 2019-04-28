@@ -36,8 +36,10 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   h2 {
-    font-size: 30px;
+    font-size: 80px;
   }
+}
+
 }
 .all{
   max-width: 500px;
