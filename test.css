@@ -42,8 +42,11 @@ h2 {
   height: 300px;
 }
 @media screen and (max-width: 600px) {
-  .header,.row{
+  .header{
     font-size: 40px;
+  }
+  .container{
+    height:40px;
   }
 }
 .overlay {
