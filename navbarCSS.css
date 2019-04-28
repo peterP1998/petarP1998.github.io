@@ -22,4 +22,8 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
+@media screen and (max-width: 600px) {
+  #navbar {
+    font-size: 30px;
+  }
+}
